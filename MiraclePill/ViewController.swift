@@ -34,8 +34,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
         
-        
-        
+             
         
     }
 
@@ -67,6 +66,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         countryLabel.isHidden = false
         countryTextBox.isHidden = false
     }
+    
     @IBAction func buyNowBtn(_ sender: Any) {
         successImage.isHidden = false
     }
